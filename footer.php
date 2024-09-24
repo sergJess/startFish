@@ -1,59 +1,59 @@
 <footer class="footer" id="footer">
-        <div class="container">
-            <div class="footer_wrap">
-                <div class="footer_top">
-                    <div class="footer_links">
-                        <a href="templates.php" class="footer_link">
-                            Фирменные стили
-                        </a>
-                        <a href="#" class="footer_link" id="web-pages-bottom">
-                            Web-сайты
-                        </a>
-                        <a href="stamps.php" class="footer_link">
-                            Печати
-                        </a>
-                        <div class="footer_socials">
-                            <a href="#" class="footer_link footer_icons">
-                                <img src="img/telegram-icon.svg" alt="telegram">
-                            </a>
-                            <a href="#" class="footer_link">
-                                <img src="img/whatsapp-icon.svg" alt="whatsapp">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_bottom">
-                    <div class="footer_links">
-                        <a href="#" class="footer_link">
-                            Управление файлами cookie
+    <div class="container">
+        <div class="footer_wrap">
+            <div class="footer_top">
+                <div class="footer_links">
+                    <a href="templates.php" class="footer_link">
+                        Фирменные стили
+                    </a>
+                    <a href="#" class="footer_link" id="web-pages-bottom">
+                        Web-сайты
+                    </a>
+                    <a href="stamps.php" class="footer_link">
+                        Печати
+                    </a>
+                    <a href="seo.php" class="footer_link">
+                        Seo
+                    </a>
+                    <div class="footer_socials">
+                        <a href="#" class="footer_link footer_icons">
+                            <img src="img/telegram-icon.svg" alt="telegram">
                         </a>
                         <a href="#" class="footer_link">
-                            Политика конфиденциальности
+                            <img src="img/whatsapp-icon.svg" alt="whatsapp">
                         </a>
-                        <a href="#" class="footer_link">
-                            Договор оферты
-                        </a>
-                    </div>
-                    <div class="footer_credits">
-                        2023© StartFish
                     </div>
                 </div>
             </div>
+            <div class="footer_bottom">
+                <div class="footer_links">
+                    <a href="#" class="footer_link">
+                        Управление файлами cookie
+                    </a>
+                    <a href="#" class="footer_link">
+                        Политика конфиденциальности
+                    </a>
+                    <a href="#" class="footer_link">
+                        Договор оферты
+                    </a>
+                </div>
+                <div class="footer_credits">
+                    2023© StartFish
+                </div>
+            </div>
         </div>
-    </footer>
-    <div class="cursor-dot"></div>
-    <div class="cursor-dot-outline"></div>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="js/main.js?<?=md5(time());?>"></script>
-    <script src="js/dotCursor.js?<?=md5(time());?>"></script>
-    
-    <script type="module">
+    </div>
+</footer>
+<div class="cursor-dot"></div>
+<div class="cursor-dot-outline"></div>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="js/main.js?<?= md5(time()); ?>"></script>
+<script src="js/dotCursor.js?<?= md5(time()); ?>"></script>
 
-
+<script type="module">
     // Select category
 
-    let services = [
-        {
+    let services = [{
             id: 1,
             name: 'Отрасль 1',
             selected: true
@@ -69,8 +69,7 @@
             selected: false
         },
     ];
-    let branches = [
-        {
+    let branches = [{
             id: 1,
             name: 'транспорт и логистика',
             selected: false
@@ -116,11 +115,10 @@
             selected: false
         }
     ]
-    const templates = [
-        {
+    const templates = [{
             "id": 1,
             "name": "001",
-            "categories": [1,6,7,8,9],
+            "categories": [1, 6, 7, 8, 9],
             "preview": "001-preview.png",
             "full": "001-full.png"
         },
@@ -141,28 +139,28 @@
         {
             "id": 4,
             "name": "004",
-            "categories": [5,3,9],
+            "categories": [5, 3, 9],
             "preview": "004-preview.png",
             "full": "004-full.png"
         },
         {
             "id": 5,
             "name": "005",
-            "categories": [5,3,9],
+            "categories": [5, 3, 9],
             "preview": "005-preview.png",
             "full": "005-full.png"
         },
         {
             "id": 6,
             "name": "006",
-            "categories": [1,6,9],
+            "categories": [1, 6, 9],
             "preview": "006-preview.png",
             "full": "006-full.png"
         },
         {
             "id": 7,
             "name": "007",
-            "categories": [5,3],
+            "categories": [5, 3],
             "preview": "007-preview.png",
             "full": "007-full.png"
         },
@@ -204,42 +202,42 @@
         {
             "id": 13,
             "name": "013",
-            "categories": [4,9],
+            "categories": [4, 9],
             "preview": "013-preview.png",
             "full": "013-full.png"
         },
         {
             "id": 14,
             "name": "014",
-            "categories": [4,3,7,8,9],
+            "categories": [4, 3, 7, 8, 9],
             "preview": "014-preview.png",
             "full": "014-full.png"
         },
         {
             "id": 15,
             "name": "015",
-            "categories": [4,3,8,9],
+            "categories": [4, 3, 8, 9],
             "preview": "015-preview.png",
             "full": "015-full.png"
         },
         {
             "id": 16,
             "name": "016",
-            "categories": [1,6,9],
+            "categories": [1, 6, 9],
             "preview": "016-preview.png",
             "full": "016-full.png"
         },
         {
             "id": 17,
             "name": "017",
-            "categories": [3,4,7,9],
+            "categories": [3, 4, 7, 9],
             "preview": "017-preview.png",
             "full": "017-full.png"
         },
         {
             "id": 18,
             "name": "018",
-            "categories": [3,4],
+            "categories": [3, 4],
             "preview": "018-preview.png",
             "full": "018-full.png"
         },
@@ -253,14 +251,14 @@
         {
             "id": 20,
             "name": "020",
-            "categories": [4,7,9],
+            "categories": [4, 7, 9],
             "preview": "020-preview.png",
             "full": "020-full.png"
         },
         {
             "id": 21,
             "name": "021",
-            "categories": [1,5,8,9],
+            "categories": [1, 5, 8, 9],
             "preview": "021-preview.png",
             "full": "021-full.png"
         },
@@ -281,56 +279,56 @@
         {
             "id": 24,
             "name": "024",
-            "categories": [1,5,9],
+            "categories": [1, 5, 9],
             "preview": "024-preview.png",
             "full": "024-full.png"
         },
         {
             "id": 25,
             "name": "025",
-            "categories": [5,3,9],
+            "categories": [5, 3, 9],
             "preview": "025-preview.png",
             "full": "025-full.png"
         },
         {
             "id": 26,
             "name": "026",
-            "categories": [5,3,9],
+            "categories": [5, 3, 9],
             "preview": "026-preview.png",
             "full": "026-full.png"
         },
         {
             "id": 27,
             "name": "027",
-            "categories": [3,4,8,9],
+            "categories": [3, 4, 8, 9],
             "preview": "027-preview.png",
             "full": "027-full.png"
         },
         {
             "id": 28,
             "name": "028",
-            "categories": [3,4,7,9],
+            "categories": [3, 4, 7, 9],
             "preview": "028-preview.png",
             "full": "028-full.png"
         },
         {
             "id": 29,
             "name": "029",
-            "categories": [8,7,9],
+            "categories": [8, 7, 9],
             "preview": "029-preview.png",
             "full": "029-full.png"
         },
         {
             "id": 30,
             "name": "030",
-            "categories": [4,5,9],
+            "categories": [4, 5, 9],
             "preview": "030-preview.png",
             "full": "030-full.png"
         },
         {
             "id": 31,
             "name": "031",
-            "categories": [7,8,9],
+            "categories": [7, 8, 9],
             "preview": "031-preview.png",
             "full": "031-full.png"
         },
@@ -342,24 +340,24 @@
             "full": "032-full.png"
         }
     ]
-    
+
     const templatesWrap = document.querySelector('.templates_wrap')
     const templatesAllBtn = document.querySelector('#templates-all')
-    let filteredTemplates = templates   
-    let showAll = false           
+    let filteredTemplates = templates
+    let showAll = false
 
     showTemplates();
-    
+
     function showTemplates() {
         if (templatesWrap) {
             let currentTemplates = filteredTemplates
             if (!showAll) {
-                currentTemplates = filteredTemplates.slice(0, 4)  
+                currentTemplates = filteredTemplates.slice(0, 4)
             }
             templatesWrap.innerHTML = ''
             currentTemplates.forEach(item => {
-                templatesWrap.innerHTML += 
-                `<a href="template.php?id=${item.id}" class="templates_item">
+                templatesWrap.innerHTML +=
+                    `<a href="template.php?id=${item.id}" class="templates_item">
                     <div>
                         <img src="img/templates/${item.preview}" alt="">
                     </div>
@@ -369,8 +367,8 @@
             templatesAllBtn.addEventListener('click', () => {
                 templatesWrap.innerHTML = ''
                 filteredTemplates.forEach(item => {
-                    templatesWrap.innerHTML += 
-                    `<a href="template.php?id=${item.id}" class="templates_item">
+                    templatesWrap.innerHTML +=
+                        `<a href="template.php?id=${item.id}" class="templates_item">
                         <div>
                             <img src="img/templates/${item.preview}" alt="">
                         </div>
@@ -392,13 +390,13 @@
     if (sortBtns) {
         sortBtns.forEach((btn, index) => {
 
-            btn.addEventListener('click',(item) => {
+            btn.addEventListener('click', (item) => {
 
                 if (btn.classList.contains('active')) {
                     btn.classList.remove('active')
                     setCategories([])
                 } else {
-        
+
                     // if (btn.dataset.name === 'branches') {
                     //     setCategories(branches)
                     //     btn.classList.add('active')
@@ -414,11 +412,11 @@
                         services.forEach((category) => {
                             category.selected = false
                         })
-                        sortBtns.forEach( x => {
+                        sortBtns.forEach(x => {
                             x.classList.remove('active')
                         })
                         setCategories(branches)
-                        filteredTemplates = templates 
+                        filteredTemplates = templates
                         showTemplates()
                     }
                 }
@@ -438,7 +436,7 @@
                 }
                 div.appendChild(divText)
                 div.dataset.id = item.id
-                
+
                 div.addEventListener('click', (e) => {
                     div.classList.toggle('active')
                     item.selected = !item.selected
@@ -463,7 +461,7 @@
             let isContains = true
             categories.forEach(category => {
                 const templateCategory = template.categories.find(x => x === category)
-                
+
                 if (!templateCategory) {
                     isContains = false
                 }
@@ -476,7 +474,7 @@
 
         showTemplates();
     }
-
-    </script>
+</script>
 </body>
+
 </html>

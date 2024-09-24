@@ -11,6 +11,8 @@
     font-display: swap;
 }
 
+@import "./variables/variables.scss";
+
 * {
     margin: 0;
     padding: 0;
@@ -18,11 +20,11 @@
 }
 
 ::-moz-selection { /* Code for Firefox */
-    background: #FFE712;
+    background: $main-color;
   }
   
   ::selection {
-    background: #FFE712;
+    background: $main-color;
   }
 
 
@@ -36,7 +38,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     line-height: 1.35;
-    transition: 0.5s ease;
+    transition: 0.6s ease;
 
     &.noscroll {
         overflow: hidden;
@@ -106,7 +108,7 @@ h2 {
 }
 
 .btn {
-    background: #FFE712;
+    background: $main-color;
     border-radius: 8px;
     width: 190px;
     border: none;
@@ -138,7 +140,7 @@ h2 {
 
 .button-s {
     display: inline;
-    background-color: #FFE712;
+    background-color: $main-color;
     position: absolute;
     top: 0;
     left: 0;
@@ -243,8 +245,8 @@ li {
         cursor: pointer;
 
         &:hover {
-            background: #FFE712;
-            border-color: #FFE712;
+            background: $main-color;
+            border-color: $main-color;
         }
     }
 
@@ -453,7 +455,7 @@ li {
                 &:checked + label {
 
                     &:before {
-                        background: #FFE712;
+                        background: $main-color;
                     }
                 }
             }
@@ -668,6 +670,9 @@ li {
         align-items: flex-start;
         justify-content: end;
     }
+    &_seo{    
+        background-color: $main-color2;
+    }
 
     &_info {
         margin-top: 18px;
@@ -694,7 +699,7 @@ li {
     }
 
     &_bubble {
-        background: #FFE712;
+        background: $main-color;
         border-radius: 50%;
         width: 104px;
         height: 104px;
@@ -793,7 +798,7 @@ li {
         }
 
         &.active {
-            background: #FFE712;
+            background: $main-color;
 
             .steps {
                 &_circle {
@@ -1232,7 +1237,7 @@ li {
 
             &:after {
                 content: '';
-                background: #FFE712 url('../img/open-box.svg') no-repeat center / contain;
+                background: $main-color url('../img/open-box.svg') no-repeat center / contain;
                 background-size: 26px;
                 background-position-y: 14px;
                 width: 50px;
@@ -1256,7 +1261,7 @@ li {
 
             &:after {
                 content: '';
-                background: #FFE712 url('../img/open-box.svg') no-repeat center / contain;
+                background: $main-color url('../img/open-box.svg') no-repeat center / contain;
                 background-size: 26px;
                 background-position-y: 14px;
                 width: 50px;
@@ -1510,8 +1515,8 @@ li {
 
             .templates_category {
                 &.active {
-                    background: #FFE712;
-                    border: #FFE712;
+                    background: $main-color;
+                    border: $main-color;
                 }
             }
         }
@@ -1558,7 +1563,7 @@ li {
             white-space: nowrap;
         }
         &_btn {
-            background: #FFE712;
+            background: $main-color;
             border-radius: 50%;
             width: 104px;
             min-width: 104px;
@@ -1596,7 +1601,7 @@ li {
 
                 &:checked +label {
                     &:after {
-                        background: #FFE712;
+                        background: $main-color;
                     }
                 }
             }
@@ -1701,4 +1706,181 @@ li {
             border-color: #FF3939 !important;
         }
     }
+}
+
+/**seo**/
+.seo-top{
+	background-image: url("./../../img/seo/subtract.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 938px;
+}
+
+.seo-top__block{
+	display: flex;
+	justify-content: space-between;
+	column-gap: 10px;
+	flex-wrap: wrap;
+	padding-top: 129px;
+}
+
+.seo-title{
+	padding-top: 71px;
+}
+
+.seo-top__text{
+	font-family: 'Bereg', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 60px;
+	margin-bottom: 45px;
+}
+
+.seo-btn{
+	background-color: $main-color;
+	font-weight: 400;
+	font-size: 15px;
+	padding: 20px 30px;
+	border-radius: 40px;
+	border: 1px solid transparent;
+	transition: all 0.5s ease;
+	&:hover{
+		background-color: $background-color;
+	}
+}
+
+.seo-price{
+	display: flex;
+	justify-content: space-between;
+    padding-left: 130px;
+	column-gap: 50px;
+	padding-top: 56px;
+    margin-bottom: 185px;
+}
+
+.seo-price-cost-block{
+    max-width: 555px;
+	padding-top: 105px;
+}
+
+.seo-price__cost {
+  display: inline-block;
+  padding: 27px 35px;
+  background-color: $main-color2;
+  border-radius: 30px;
+}
+
+.seo-price__cost_colored{
+  margin-top: 55px;
+  margin-left: 222px;
+  background-color: #D5E9FC;
+}
+
+.seo-price__cost-inner{
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.seo-price__cost-text {
+  font-family: "Bereg", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.seo-price__cost-text2 {
+  font-family: "Bereg", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.seo-price__cost-text3 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.seo-price__cost-ico {
+  width: 16px;
+  height: 16px;
+  margin-left: 15px;
+  background-image: url("../../img/seo/triangle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.seo-price-text-block {
+  padding-top: 56px;
+}
+
+.seo-price__title{
+    font-size: 68px;
+}
+
+.seo-price__text1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.seo-price__text2{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.promotion-content{
+    margin: 100px 0; 
+}
+
+.promotion{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.promotion-item{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    max-width: 422px;
+    width: 100%;
+}
+
+.promotion__circle{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #222020;
+    font-family: $main-font;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 25px;
+    border-radius: 50px;
+    color: #D9D9D9;
+}
+
+.promotion-text{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.promotion-arrow{
+    display: flex;
+    justify-content: center;
+    column-gap: 33%;
+    margin: 15px 0;
+}
+
+.promotion-block{
+    margin-bottom: 120px;
+}
+
+.seo-strategy{
+    background-image: url("../img/seo/bg-seo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 58px 140px 105px 140px;
+    border-radius: 10px;
 }
