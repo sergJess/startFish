@@ -99,7 +99,14 @@
     </section>
     <section>
     	<div class="container">
-    		<div class="seo-strategy"></div>
+    		<div class="seo-strategy">
+    			<div class="seo-strategy-block">
+    				<div class=""><span>СЕО продвижение сайтов в Москве —</span><br />
+    					это стратегически важное направление для нашей<br />
+    					компании. Несколько ключевых факторов делают<br /> этот регион приоритетным для нас.</div>
+    			</div>
+    			<div class="seo-strategy-block"></div>
+    		</div>
     	</div>
     </section>
     <?php include 'footer.php'; ?>
