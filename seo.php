@@ -101,11 +101,106 @@
     	<div class="container">
     		<div class="seo-strategy">
     			<div class="seo-strategy-block">
-    				<div class=""><span>СЕО продвижение сайтов в Москве —</span><br />
-    					это стратегически важное направление для нашей<br />
-    					компании. Несколько ключевых факторов делают<br /> этот регион приоритетным для нас.</div>
+    				<div class="">
+    					<h4 class="seo-strategy-subtitle">СЕО продвижение сайтов в Москве —</h4>
+    					<p class="seo-strategy-text"> это стратегически важное направление для нашей<br />
+    						компании. Несколько ключевых факторов делают<br /> этот регион приоритетным для нас.</p>
+    				</div>
+    				<ul>
+    					<li class="seo-strategy__list"><span class=" seo-strategy__list-img"></span>Высокая конкуренция и большие возможности</li>
+    					<li class="seo-strategy__list"><span class="seo-strategy__list-img"></span>Разнообразие рынка
+    					</li>
+    					<li class="seo-strategy__list"><span class="seo-strategy__list-img"></span>Технологическая инфраструктура</li>
+    					<li class="seo-strategy__list"><span class="seo-strategy__list-img"></span>Доступ к качественным ресурсам</li>
+    					<li class="seo-strategy__list"><span class="seo-strategy__list-img"></span>Экономическое влияние</li>
+    				</ul>
     			</div>
-    			<div class="seo-strategy-block"></div>
+    			<div>
+    				<h3 class="seo-strategy-title">Более 10 лет занимаемся<br /> Startfish Сео продвижением<br /> сайтов в Москве!</h3>
+    				<p>Мы убеждены, что продвижение сайтов в Москве — это<br /> эффективный способ повысить
+    					видимость вашего бизнеса, привлечь<br /> новых клиентов и укрепить позиции на рынке. С
+    					нами вы получите<br /> стратегическое преимущество и высокие результаты в кратчайшие<br />
+    					сроки. Свяжитесь с нами, чтобы узнать больше о том, как мы можем<br /> помочь вашему
+    					бизнесу добиться успеха в Москве!</p>
+    			</div>
+    		</div>
+    	</div>
+    	</div>
+    	</div>
+    </section>
+    <section>
+    	<div class="container">
+    		<div class="position">
+    			<h3 class="position-title">Мы стремимся помочь вашему сайту занять лидирующие позиции<br /> в поисковых системах
+    				и привлечь новую аудиторию.
+    			</h3>
+    			<h4 class="position-subtitle">Наш подход к SEO продвижению включает несколько ключевых этапов:
+    			</h4>
+    			<div class="position-items">
+    				<div class="postion__item-block">
+
+    					<div class="position__item">
+    						<div class="position__item-circle">01</div>
+    						<div class="position__item-text-block">
+    							<h5 class="position__item-title">Анализ сайта<br />
+    								и конкурентов:</h5>
+    							<p class="position__item-text">Мы всесторонне изучим текущее состояние вашего сайта
+    								и<br /> выявим слабые места в сравнении с конкурентами, чтобы<br /> сформировать наиболее
+    								эффективную стратегию.
+    							</p>
+    						</div>
+    					</div>
+    					<div class="position__item">
+    						<div class="position__item-circle">02</div>
+    						<div class="position__item-text-block">
+    							<h5 class="position__item-title">Подбор<br /> ключевых слов:</h5>
+    							<p class="position__item-text">Определим наиболее эффективные ключевые слова для<br /> вашего
+    								бизнеса, способствующие привлечению целевого<br /> трафика.
+    							</p>
+    						</div>
+    					</div>
+    					<div class="position__item">
+    						<div class="position__item-circle">03</div>
+    						<div class="position__item-text-block">
+    							<h5 class="position__item-title">Оптимизация<br /> контента:</h5>
+    							<p class="position__item-text">Наши эксперты улучшат содержание сайта, чтобы оно<br />
+    								соответствовало современным стандартам поисковых систем.
+    							</p>
+    						</div>
+    					</div>
+    				</div>
+    				<div class="postion__item-block">
+
+    					<div class="position__item">
+    						<div class="position__item-circle">04</div>
+    						<div class="position__item-text-block">
+    							<h5 class="position__item-title">Техническая<br /> оптимизация:</h5>
+    							<p class="position__item-text">ММы обеспечим стабильную и быструю работу вашего сайта,<br />
+    								что способно повысить его рейтинг в поисковых системах.
+    							</p>
+    						</div>
+    					</div>
+    					<div class="position__item">
+    						<div class="position__item-circle">05</div>
+    						<div class="position__item-text-block">
+    							<h5 class="position__item-title">Создание качественных<br /> обратных ссылок:</h5>
+    							<p class="position__item-text">Увеличим авторитет вашего ресурса за счёт
+    								ссылок с<br /> доверенных источников, что значительно улучшит его позиции<br /> в поисковой
+    								выдаче.
+
+    							</p>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    <section>
+    	<div class="container">
+    		<div class="clients-block">
+    			<h2 class="clients-title">Наши клиенты получают ощутимые результаты:</h2>
+    			<div class="clients-content"></div>
     		</div>
     	</div>
     </section>
