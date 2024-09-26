@@ -2240,10 +2240,11 @@ li {
 
 .order-scroll{
     display: flex;
+    flex-wrap: nowrap;
     column-gap: 22px;
     max-width: 100%;
     overflow-x: auto;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
 .scroll-item{
@@ -2259,6 +2260,12 @@ li {
     transition: all .5s ease-in;
 }
 
+.scroll-item_opened{
+    max-width: 350px;
+    min-height: 460px;
+    background-color: $main-color2;
+}
+
 .scroll-item__title{
     font-size: 18px;
     font-weight: 500;
@@ -2268,7 +2275,6 @@ li {
 }
 
 .scroll-item__text{
-    display: none;
     font-size: 15px;
     font-weight: 400;
 }

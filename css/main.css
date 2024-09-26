@@ -2031,6 +2031,7 @@ li {
 
 .order-scroll {
   display: flex;
+  flex-wrap: nowrap;
   -moz-column-gap: 22px;
        column-gap: 22px;
   max-width: 100%;
@@ -2051,6 +2052,12 @@ li {
   transition: all 0.5s ease-in;
 }
 
+.scroll-item_opened {
+  max-width: 350px;
+  min-height: 460px;
+  background-color: #EDF6FF;
+}
+
 .scroll-item__title {
   font-size: 18px;
   font-weight: 500;
@@ -2060,7 +2067,6 @@ li {
 }
 
 .scroll-item__text {
-  display: none;
   font-size: 15px;
   font-weight: 400;
 }

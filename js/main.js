@@ -522,9 +522,27 @@ if(elem){
  if(elem.getAttribute('isClicked') == null){
    elem.setAttribute("isClicked", "true");
   }
-    const imgToHide = elem.querySelector('.scroll-item__img-block');
+  const imgToHide = elem.querySelector('.scroll-item__img-block');
+  const text = elem.querySelector('.scroll-item__text');
+  const imgArrow = elem.querySelector('.order-enter__img');
+  if(elem.getAttribute('isClicked') == "true"){
     imgToHide.classList.add('display-none');
-    const text = elem.querySelector('.scroll-item__text');
+    text.classList.remove('display-none');
     text.classList.add('display-block');
+    elem.classList.add('scroll-item_opened');
+    imgArrow.src = './img/seo/ico-arrow-down.svg';
+    elem.setAttribute('isClicked', 'false');
+    return;
+  }
+  if(elem.getAttribute('isClicked') == "false"){
+    imgToHide.classList.remove('display-none');
+    text.classList.add('display-none');
+    text.classList.remove('display-block');
+    elem.classList.remove('scroll-item_opened');
+    imgArrow.src = `${elem.getAttribute('imgSrc')}`;
+    elem.setAttribute('isClicked', 'true');
+    return;
+  }
+   
 }
 }
