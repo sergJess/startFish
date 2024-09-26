@@ -200,7 +200,62 @@
     	<div class="container">
     		<div class="clients-block">
     			<h2 class="clients-title">Наши клиенты получают ощутимые результаты:</h2>
-    			<div class="clients-content"></div>
+    			<div class="clients-content">
+    				<div class="clients-content-item-wrapper">
+    					<div class="clients-content-item">
+    						<h5 class="clients-content__title">Увеличение<br /> трафика:</h5>
+    						<div class="client-content-icon"><img src="./img/seo/icon-humon.svg" alt="icon-human"></div>
+    					</div>
+    					<p class="client-content-text">Ваш сайт привлекает<br /> больше посетителей.
+    					</p>
+    				</div>
+    				<div class="clients-content-item-wrapper">
+    					<div class="clients-content-item">
+    						<h5 class="clients-content__title">Рост<br /> конверсии:</h5>
+    						<div class="client-content-icon"><img src="./img/seo/icon-arrow-big.svg" alt="icon-arrow"></div>
+    					</div>
+    					<p class="client-content-text">Увеличивается<br /> количество целевых<br /> действий на сайте.
+    					</p>
+    				</div>
+    				<div class="clients-content-item-wrapper">
+    					<div class="clients-content-item_modified">
+    						<h5 class="clients-content__title clients-content__title_modified">Увеличение<br /> прибыли:</h5>
+    						<div class="client-content-icon"><img src="./img/seo/icon-arrow-thin.svg" alt="icon-arrow-thin"></div>
+    					</div>
+    					<p class="client-content-text client-content-text_modified">Эффективность работы<br /> сайта ведёт к росту<br /> доходов вашего<br />
+    						бизнеса.
+    					</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    <section>
+    	<div class="container">
+    		<div class="form-wrapper">
+    			<form action="" class="seo-form">
+    				<h5 class="seo-form-title">Ваши данные</h5>
+    				<div class="seo-form-inputs">
+    					<input type="text" class="seo-form__input" placeholder="Имя">
+    					<input type="text" class="seo-form__input" placeholder="Телефон">
+    				</div>
+    				<textarea name="" id="" class="seo-form__textarea" placeholder="Введите ваши данные"></textarea>
+    				<div class="seo-form__submit-block">
+    					<button type="submit" class="seo-form__submit-btn">Отправить</button>
+    					<p class="seo-form__submit-text">Нажимая на кнопку, вы соглашаетесь <span class="seo-form__submit-text_colored">с Политекой персональных данных</span></p>
+    				</div>
+    			</form>
+    			<div class="seo-form-info-block">
+    				<div class="seo-form__img-block">
+    					<img src="./img/seo/form-call.png" alt="call">
+    				</div>
+    				<h4 class="seo-form-info-block__title">Свяжитесь с нами сегодня и ощутите<br /> первые
+    					результаты уже завтра!</h4>
+    				<p class="seo-form-info-block__text">Мы обеспечиваем прозрачность и своевременные отчёты по<br /> всем выполненным работам,
+    					а также персонализированный<br /> подход к каждому проекту. Успех вашего сайта является<br />
+    					нашей главной целью.
+    				</p>
+    			</div>
     		</div>
     	</div>
     </section>
