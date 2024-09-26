@@ -481,6 +481,50 @@ catalogItems.forEach(item => {
 catalogModalClose.addEventListener('click', () => {
     catalogModal.classList.remove('show')
 })
+// seo
 
+function clickAccord(){
+    const elem = event.currentTarget;
+    if(elem){
+  if(elem.getAttribute('isClicked') == null){
+   elem.setAttribute("isClicked", "true");
+  }
+  const isClicked = elem.getAttribute('isClicked');
+  if( isClicked == "true"){
+    const verticalLineElement = elem.querySelector('span');
+  if(verticalLineElement){
+    verticalLineElement.classList.add('question-item__vertic-line_hidden');
+    const text = elem.parentNode.parentNode.querySelector('.question-item__text');
+  if(text){
+    text.classList.add('question-item__text_visible');
+  }
+  }
+elem.setAttribute("isClicked", "false");
+return
+  }
+if( isClicked == "false"){}
+    const verticalLineElement = elem.querySelector('span');
+  if(verticalLineElement){
+    verticalLineElement.classList.remove('question-item__vertic-line_hidden');
+    const text = elem.parentNode.parentNode.querySelector('.question-item__text');
+  if(text){
+    text.classList.remove('question-item__text_visible');
+  }
+  }
+elem.setAttribute("isClicked", "true");
+return
+    } 
+}
 
-
+function clickOnScrollItem(){
+const elem = event.currentTarget;
+if(elem){
+ if(elem.getAttribute('isClicked') == null){
+   elem.setAttribute("isClicked", "true");
+  }
+    const imgToHide = elem.querySelector('.scroll-item__img-block');
+    imgToHide.classList.add('display-none');
+    const text = elem.querySelector('.scroll-item__text');
+    text.classList.add('display-block');
+}
+}

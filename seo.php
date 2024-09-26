@@ -259,4 +259,187 @@
     		</div>
     	</div>
     </section>
+    <section>
+    	<div class="container">
+    		<div class="questions">
+    			<div class="questions-block">
+    				<h2 class="questions-title">
+    					Часто задаваемые<br /> вопросы:
+    				</h2>
+    				<div class="questions-img-block"><img src="./img/seo/smile-man.png" alt="man"></div>
+    			</div>
+    			<div class="questions-block">
+    				<div class="question-item">
+    					<div class="question-item__title-block">
+    						<div class="question-item__title"><span class="question-item__title-number">01</span>Что такое SEO продвижение?</div>
+    						<div class="question-item__accord" onclick=clickAccord()><span class=" question-item__vertic-line"></span><span class="question-item__horiz-line"></span></div>
+    					</div>
+    					<div class="question-item__text">
+    						<p>SEO продвижение представляет собой процесс оптимизации веб-сайта с целью улучшения
+    							его позиций в органической (естественной) выдаче поисковых систем, таких как Яндекс и
+    							Google. Попадание на первую страницу поиска — ключевая цель SEO, ведь всего лишь 10
+    							сайтов получают эту привилегию. Учитывая, что 95% пользователей не переходят дальше
+    							первой страницы результатов, важно обеспечить своему сайту видимость именно там.</p>
+    						<p>Качественная SEO оптимизация не только увеличивает количество посетителей на сайте,
+    							но и преобразует эти визиты в продажи за счет целевых переходов на ваш ресурс. Это
+    							приводит к росту посещаемости сайта и, как следствие, стимулирует увеличение объемов
+    							продаж без дополнительных расходов на рекламные кампании.</p>
+    						<p>
+    							Благодаря успешной SEO стратегии ваш сайт может получить значительные
+    							преимущества в конкурентной борьбе, приобретая бесплатный и целенаправленный
+    							трафик, что существенно скажется на развитии вашего бизнеса в цифровом пространстве.</p>
+    					</div>
+    				</div>
+    				<div class="question-item">
+    					<div class="question-item__title-block">
+    						<div class="question-item__title"><span class="question-item__title-number">02</span>Что входит в разработку СЕО продвижения «под ключ»?</div>
+    						<div class="question-item__accord" onclick=clickAccord()><span class=" question-item__vertic-line"></span><span class="question-item__horiz-line"></span></div>
+    					</div>
+    					<div class="question-item__text">
+    						<p>Мы для Вас разрабатываем сайт под ключ:</p>
+    						<p>- Создание прототипа на основе анализа конкурентов.<br />
+    							- Разработка уникального дизайна.<br />
+    							- Верстка и программирование.<br />
+    							- Проработка уникального торгового предложения (УТП).<br />
+    							- Наполнение сайта уникальной информацией.</p>
+    						<p>
+    							Далее наша СЕО – команда делает первичную оптимизацию сайта под ключевые запросы!</p>
+    						<p>Стоимость данной услуги составляет 200 000 рублей, далее мы выводим в ТОП Яндекс с
+    							оплатой за результат! </p>
+    					</div>
+    				</div>
+    				<div class="question-item">
+    					<div class="question-item__title-block">
+    						<div class="question-item__title"><span class="question-item__title-number">03</span>Как работает SEO продвижение?</div>
+    						<div class="question-item__accord" onclick=clickAccord()><span class=" question-item__vertic-line"></span><span class="question-item__horiz-line"></span></div>
+    					</div>
+    					<div class="question-item__text">
+    						<p>Для того чтобы ваш сайт занимал верхние позиции в поисковой выдаче, необходимо
+    							учитывать требования и обновления поисковых систем, таких как Яндекс и Google. Эти
+    							системы непрерывно совершенствуют свою выдачу и строго контролируют качество
+    							сайтов, которые размещаются на первых страницах. Вот что нужно делать, чтобы ваш
+    							ресурс всегда был в топе:</p>
+    						<p>- Постоянное улучшение юзабилити: Ориентируйтесь на удобство пользователей вашим
+    							сайтом. Обеспечение быстрой загрузки страниц, понятной навигации и адаптивного
+    							дизайна делает сайт приятным для посещения.<br /> - Технические обновления: Регулярно обновляйте техническую составляющую сайта,
+    							делая его более современным и функциональным. Это может включать в себя
+    							оптимизацию кода, обновление серверного программного обеспечения и адаптацию под
+    							новые требования поисковых алгоритмов.</p>
+    						<p>Эти меры помогают вашему сайту не только привлекать бесплатный трафик из интернета,
+    							но и повышать конверсию. Чем удобнее и полезнее ваш сайт для пользователей, тем
+    							больше у вас шансов на увеличение продаж и удержание клиентов.</p>
+    					</div>
+    				</div>
+    				<div class="question-item">
+    					<div class="question-item__title-block">
+    						<div class="question-item__title"><span class="question-item__title-number">04</span>Сколько времени нужно чтобы продвинуть сайт?</div>
+    						<div class="question-item__accord" onclick=clickAccord()><span class=" question-item__vertic-line"></span><span class="question-item__horiz-line"></span></div>
+    					</div>
+    					<div class="question-item__text">
+    						<p>Сроки достижения топовых позиций зависят от множества факторов. При работе с
+    							опытными специалистами первые положительные изменения могут быть замечены уже
+    							через 3-4 недели. Однако, комплексное продвижение требует времени и зависит от
+    							различных аспектов:</p>
+    						<p>- Качество структуры сайта: Грамотное планирование и реализация архитектуры сайта
+    							помогают поисковым системам лучше индексировать ваш контент.<br /> - Корректные настройки файлов и мета-тегов: Верные настройки служебных файлов
+    							(например, robots.txt) и правильное заполнение мета-тегов способствуют улучшению
+    							индексации.<br />- Возраст домена: Старые доменные имена имеют больше доверия со стороны поисковых
+    							систем.<br />- Поведенческие факторы: Важным элементом являются действия пользователей на вашем
+    							сайте, такие как длительность посещения и взаимодействие с контентом.</p>
+    						<p>Учитывая эти факторы, успешное продвижение требует систематического и комплексного
+    							подхода, но первые результаты могут быть видны в течение месяца активной работы.</p>
+    					</div>
+    				</div>
+    				<div class="question-item">
+    					<div class="question-item__title-block">
+    						<div class="question-item__title"><span class="question-item__title-number">05</span>Что выбрать: SEO или контекстную рекламу?</div>
+    						<div class="question-item__accord" onclick=clickAccord()><span class=" question-item__vertic-line"></span><span class="question-item__horiz-line"></span></div>
+    					</div>
+    					<div class="question-item__text">
+    						<p>Определиться между SEO продвижением и контекстной рекламой может быть не просто,
+    							поскольку обе стратегии имеют свои особенности и преимущества:</p>
+    						<p>- SEO продвижение — этот путь требует длительного времени и усилий, но его
+    							результаты обеспечивают стабильные позиции в поисковой выдаче. Попав в топ, ваш сайт
+    							сможет продолжать получать бесплатный целевой трафик, что экономически выгодно в
+    							долгосрочной перспективе.<br /> - Контекстная реклама — это быстрый способ оказаться в топе поисковых систем. Вы
+    							можете буквально в считанные часы привлечь трафик на ваш сайт. Однако, как только
+    							бюджет на рекламу исчерпан, эффект мгновенно прекращается.</p>
+    						<p>Традиционно, SEO может быть менее предсказуемым из-за изменений в алгоритмах
+    							поисковых систем. Напротив, контекстная реклама позволяет более точно настраивать
+    							показы объявлений по времени, аудитории и другим параметрам.</p>
+    						<p>Обе стратегии важны для привлечения целевых клиентов через интернет, и оптимальным
+    							вариантом может быть их комбинирование для достижения максимальных результатов.</p>
+    					</div>
+    				</div>
+    				<div class="question-item">
+    					<div class="question-item__title-block">
+    						<div class="question-item__title"><span class="question-item__title-number">06</span>Как быстро выйти в ТОП Яндекс?</div>
+    						<div class="question-item__accord" onclick=clickAccord()><span class=" question-item__vertic-line"></span><span class="question-item__horiz-line"></span></div>
+    					</div>
+    					<div class="question-item__text">
+    						<p>Чтобы быстрее оказаться в топе поисковой выдачи Яндекса, рекомендуется задействовать
+    							все доступные методы привлечения трафика. Разнообразие источников трафика помогает
+    							улучшить поведенческие факторы, что ускорит продвижение вашего сайта.</p>
+    						<p>Качественная SEO работа, которую предлагают специалисты в Новосибирске, начинается
+    							от 20 000 рублей в месяц. Однако, будьте осторожны при выборе специалистов,
+    							обещающих гарантированные места в ТОП 10 Такой результат может быть
+    							недостижимым для всех видов сайтов, и наличие обещаний не всегда соответствует
+    							реальной картине.</p>
+    						<p>Использование стратегическим подходом SEO и контекстной рекламы, поддержка
+    							качества контента и технического состояния сайта, а также работа над улучшением
+    							поведенческих факторов — все это вместе взятое сможет быстрее привести вас к заветной
+    							цели быть в топе Яндекса.</p>
+    						<p>Таким образом, широкий спектр мероприятий и комплексный подход обеспечат
+    							полноценную работу по продвижению и удержанию позиций вашего сайта на вершине
+    							поисковой выдачи.</p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    <section>
+    	<div class="container">
+    		<div class="order">
+    			<h2 class="order-title">Как заказать<br /> продвижение</h2>
+    			<div class="order-scroll">
+    				<div class="scroll-item" onclick="clickOnScrollItem()">
+    					<div class="scroll-item__img-block"><img src="./img/seo/ico-consultation.svg" alt="consultation"></div>
+    					<h5 class="scroll-item__title">Консультация</h5>
+    					<p class="scroll-item__text">Начальный этап заключается в бесплатной консультации, на которой мы выясняем ваши
+    						бизнес-цели, текущую ситуацию вашего сайта и обсуждаем возможные варианты
+    						продвижения. Мы готовы ответить на все ваши вопросы и предложить предварительный
+    						анализ перспектив.</p>
+    					<div class="order-enter"><img src="./img/seo/ico-enter.svg" alt="enter"></div>
+    				</div>
+    				<div class="scroll-item">
+    					<div><img src="./img/seo/ico-proposition.svg" alt="proposition"></div>
+    					<h5 class="scroll-item__title">Коммерческое<br /> предложение</h5>
+    					<div class="order-enter"><img src="./img/seo/ico-enter.svg" alt="enter"></div>
+    				</div>
+    				<div class="scroll-item">
+    					<div><img src="./img/seo/ico-meet.svg" alt="meet"></div>
+    					<h5 class="scroll-item__title">Личная<br /> встреча</h5>
+    					<div class="order-enter"><img src="./img/seo/ico-enter.svg" alt="enter"></div>
+    				</div>
+    				<div class="scroll-item">
+    					<div><img src="./img/seo/ico-doc.svg" alt="consultation"></div>
+    					<h5 class="scroll-item__title">Заключение<br /> договора</h5>
+    					<div class="order-enter"><img src="./img/seo/ico-enter.svg" alt="agreement"></div>
+    				</div>
+    				<div class="scroll-item">
+    					<div><img src="./img/seo/ico-top.svg" alt="top"></div>
+    					<h5 class="scroll-item__title">Вывод в ТОП</h5>
+    					<div class="order-enter"><img src="./img/seo/ico-enter.svg" alt="enter"></div>
+    				</div>
+    				<div class="scroll-item">
+    					<div><img src="./img/seo/ico-rub.svg" alt="payment"></div>
+    					<h5 class="scroll-item__title">Оплата<br />
+    						по договору</h5>
+    					<div class="order-enter"><img src="./img/seo/ico-enter.svg" alt="enter"></div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
     <?php include 'footer.php'; ?>
