@@ -49,6 +49,9 @@
     .template .fixed-plans_item {
         width: 550px;
     }
+    .seo-title, .seo-price__title, .promotion-title, .clients-title, .questions-title, .order-title{
+        font-size: 45px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -124,6 +127,30 @@
                 padding: 30px 25px;
             }
         }
+    }
+
+    .order-scroll{
+        overflow-x: scroll;
+    }
+
+    .seo-top__block{
+        padding-top: 60px;
+        flex-direction: column;
+        row-gap: 60px;
+    }
+    .promotion-arrow-img{
+        display: none;
+    }
+    .promotion{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .position-items{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .clients-content{
+        overflow-x: scroll;
     }
 }
 

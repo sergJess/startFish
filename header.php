@@ -132,9 +132,9 @@ $request = explode('/', $request)[1];
                             <a href="#" class="footer_link" id="web-pages-mobile">
                                 Web-сайты
                             </a>
-                            <a href="stamps.php" class="footer_link">
+                            <!-- <a href="stamps.php" class="footer_link">
                                 Печати
-                            </a>
+                            </a> -->
                             <a href="seo.php" class="footer_link">
                                 Seo
                             </a>
@@ -252,9 +252,9 @@ $request = explode('/', $request)[1];
                             <a href="#" class="footer_link" id="web-pages-mobile-2">
                                 Web-сайты
                             </a>
-                            <a href="stamps.php" class="footer_link">
+                            <!-- <a href="stamps.php" class="footer_link">
                                 Печати
-                            </a>
+                            </a> -->
                             <a href="seo.php" class="footer_link">
                                 Seo
                             </a>
@@ -343,9 +343,9 @@ $request = explode('/', $request)[1];
                                 <button class="project_services_item">
                                     фирменный стиль
                                 </button>
-                                <button class="project_services_item">
+                                <!-- <button class="project_services_item">
                                     печати
-                                </button>
+                                </button> -->
                             </div>
                         </div>
                         <div class="project_inputs">
@@ -393,9 +393,9 @@ $request = explode('/', $request)[1];
                             <a href="#" class="footer_link" id="web-pages-mobile">
                                 Web-сайты
                             </a>
-                            <a href="stamps.php" class="footer_link">
+                            <!-- <a href="stamps.php" class="footer_link">
                                 Печати
-                            </a>
+                            </a> -->
                             <div class="footer_socials">
                                 <a href="#" class="footer_link footer_icons">
                                     <img src="img/telegram-icon.svg" alt="telegram">
@@ -809,9 +809,9 @@ $request = explode('/', $request)[1];
                             <a href="#" class="footer_link" id="web-pages-mobile-2">
                                 Web-сайты
                             </a>
-                            <a href="stamps.php" class="footer_link">
+                            <!-- <a href="stamps.php" class="footer_link">
                                 Печати
-                            </a>
+                            </a> -->
                             <div class="footer_socials">
                                 <a href="#" class="footer_link footer_icons">
                                     <img src="img/telegram-icon.svg" alt="telegram">
@@ -846,9 +846,9 @@ $request = explode('/', $request)[1];
         <div class="container">
             <div class="hidden_wrap">
                 <div class="hidden_menu">
-                    <a href="stamps.php" class="hidden_menu_item">
+                    <!-- <a href="stamps.php" class="hidden_menu_item">
                         печати
-                    </a>
+                    </a> -->
                     <a href="templates.php" class="hidden_menu_item">
                         фирменный стиль
                     </a>
@@ -877,11 +877,11 @@ $request = explode('/', $request)[1];
                     <img src="img/logo.svg" alt="logo">
                 </a>
                 <ul class="nav_menu">
-                    <li>
+                    <!-- <li>
                         <a href="stamps.php" class="nav_menu_item">
                             Печати
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="seo.php" class="nav_menu_item">
                             Seo

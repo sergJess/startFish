@@ -40,6 +40,9 @@
   .template .fixed-plans_item {
     width: 550px;
   }
+  .seo-title, .seo-price__title, .promotion-title, .clients-title, .questions-title, .order-title {
+    font-size: 45px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .container {
@@ -70,7 +73,6 @@
   .cons {
     margin-top: -100px;
   }
-  
   .steps_circle:not(:first-child) {
     margin-left: -130px;
   }
@@ -99,6 +101,28 @@
   }
   .order_form_item {
     padding: 30px 25px;
+  }
+  .order-scroll {
+    overflow-x: scroll;
+  }
+  .seo-top__block {
+    padding-top: 60px;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+  .promotion-arrow-img {
+    display: none;
+  }
+  .promotion {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .position-items {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .clients-content {
+    overflow-x: scroll;
   }
 }
 @media screen and (max-width: 992px) {
@@ -339,13 +363,6 @@
   .steps_circle {
     zoom: 0.8;
   }
-  .bankBanner-image{
-      display: none;
-  }
-  .bankBanner_wrap{
-      margin: 0;
-      padding
-  }
   .cons {
     margin-top: -240px;
   }
@@ -497,14 +514,6 @@
   .cons {
     padding-top: 0;
   }
-  .bankBanner-image{
-      display: none;
-  }
-  .bankBanner_wrap{
-      padding: 50px 0 50px 0;
-      margin: 0;
-  }
-
   .steps_circle {
     zoom: 0.7;
   }

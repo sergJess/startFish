@@ -9,9 +9,9 @@
                     <a href="#" class="footer_link" id="web-pages-bottom">
                         Web-сайты
                     </a>
-                    <a href="stamps.php" class="footer_link">
+                    <!-- <a href="stamps.php" class="footer_link">
                         Печати
-                    </a>
+                    </a> -->
                     <a href="seo.php" class="footer_link">
                         Seo
                     </a>

@@ -10,7 +10,13 @@
     					Оплата после вывода в ТОП</p>
     				<button class="seo-btn">Заказать Сео продвижение</button>
     			</div>
-    			<div><img src="./img/seo/seo-top.png" alt="seo"></div>
+    			<div>
+    				<picture>
+    					<source srcset="./img/seo/seo-top-mobile.png" media="(max-width: 1440px)">
+    					<img src="./img/seo/seo-top.png" alt="seo">
+    				</picture>
+
+    			</div>
     		</div>
     	</div>
     </section>
@@ -52,7 +58,7 @@
     <section>
     	<div class="container">
     		<div class="promotion-block">
-    			<h2>Как мы работаем<br /> по СЕО продвижению:</h2>
+    			<h2 class="promotion-title">Как мы работаем<br /> по СЕО продвижению:</h2>
     			<div class="promotion-content">
     				<div class="promotion">
     					<div class="promotion-item">
