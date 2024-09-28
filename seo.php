@@ -106,12 +106,15 @@
     <section>
     	<div class="container">
     		<div class="seo-strategy">
+    			<div>
+    				<h4 class="seo-strategy-subtitle">СЕО продвижение сайтов в Москве —</h4>
+    				<p class="seo-strategy-text"> это стратегически важное направление для нашей<br />
+    					компании. Несколько ключевых факторов делают<br /> этот регион приоритетным для нас.</p>
+    			</div>
+    			<div class="seo-strategy-title-block">
+    				<h3 class="seo-strategy-title">Более 10 лет занимаемся<br /> Startfish Сео продвижением<br /> сайтов в Москве!</h3>
+    			</div>
     			<div class="seo-strategy-block">
-    				<div class="">
-    					<h4 class="seo-strategy-subtitle">СЕО продвижение сайтов в Москве —</h4>
-    					<p class="seo-strategy-text"> это стратегически важное направление для нашей<br />
-    						компании. Несколько ключевых факторов делают<br /> этот регион приоритетным для нас.</p>
-    				</div>
     				<ul>
     					<li class="seo-strategy__list"><span class=" seo-strategy__list-img"></span>Высокая конкуренция и большие возможности</li>
     					<li class="seo-strategy__list"><span class="seo-strategy__list-img"></span>Разнообразие рынка
@@ -121,8 +124,7 @@
     					<li class="seo-strategy__list"><span class="seo-strategy__list-img"></span>Экономическое влияние</li>
     				</ul>
     			</div>
-    			<div>
-    				<h3 class="seo-strategy-title">Более 10 лет занимаемся<br /> Startfish Сео продвижением<br /> сайтов в Москве!</h3>
+    			<div class="seo-strategy-main-text">
     				<p>Мы убеждены, что продвижение сайтов в Москве — это<br /> эффективный способ повысить
     					видимость вашего бизнеса, привлечь<br /> новых клиентов и укрепить позиции на рынке. С
     					нами вы получите<br /> стратегическое преимущество и высокие результаты в кратчайшие<br />
@@ -268,11 +270,10 @@
     <section>
     	<div class="container">
     		<div class="questions">
-    			<div class="questions-block">
+    			<div>
     				<h2 class="questions-title">
     					Часто задаваемые<br /> вопросы:
     				</h2>
-    				<div class="questions-img-block"><img src="./img/seo/smile-man.png" alt="man"></div>
     			</div>
     			<div class="questions-block">
     				<div class="question-item">
@@ -401,6 +402,7 @@
     					</div>
     				</div>
     			</div>
+    			<div class="questions-img-block"><img src="./img/seo/smile-man.png" alt="man"></div>
     		</div>
     	</div>
     </section>
