@@ -51,6 +51,7 @@
     }
     .seo-title, .seo-price__title, .promotion-title, .clients-title, .questions-title, .order-title{
         font-size: 45px;
+        padding-top: 0px;
     }
      .clients-content{
         margin-bottom: 100px;
@@ -107,6 +108,11 @@
          margin-bottom: 100px;
          padding-left: 12px;
         }
+.postion__item-block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
 
 .position__item{
     min-height: auto;
@@ -211,7 +217,7 @@
     }
 
     .seo-top__block{
-        padding-top: 60px;
+        padding-top: 0px;
         flex-direction: column;
         row-gap: 60px;
     }
@@ -225,6 +231,9 @@
     .position-items{
         flex-direction: column;
         row-gap: 40px;
+    }
+    .seo-top{
+        min-height: auto;
     }
    
 }

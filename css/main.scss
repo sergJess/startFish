@@ -1879,10 +1879,6 @@ li {
 }
 
 .seo-strategy{
-    // display: flex;
-    // flex-wrap: wrap;
-    // justify-content: space-between;
-    // column-gap: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -2322,4 +2318,32 @@ li {
 
 .scroll-item:hover .order-enter{
     background-color: $main-color;
+}
+
+.seo-overlay{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    left: 800%;
+    top: 0;
+    height: 100vh;
+    background-color: $main-color2;
+    z-index: 100;
+}
+
+.seo-overlay-block{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: flex-start;
+}
+
+.seo-overlay_open{
+     left: 0;
+}
+
+.body-no-scroll{
+    overflow-y: hidden;
+    
 }

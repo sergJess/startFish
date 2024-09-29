@@ -542,7 +542,20 @@ if(elem){
     imgArrow.src = `${elem.getAttribute('imgSrc')}`;
     elem.setAttribute('isClicked', 'true');
     return;
-  }
-   
+  }   
+}
+}
+
+function clickToOpenFormOverlay(){
+const overlay = document.querySelector('.seo-overlay');
+if(overlay){
+    overlay.classList.add('seo-overlay_open');
+}
+}
+
+function clickToCloseFormOverlay(){
+    const overlay = document.querySelector('.seo-overlay');
+if(overlay){
+    overlay.classList.remove('seo-overlay_open');
 }
 }

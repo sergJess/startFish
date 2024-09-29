@@ -8,7 +8,7 @@
     				<p class="seo-top__text">Входим в ТОП - 3 ранжирования Яндекс<br />
     					Работаем более, чем в 100 нишах<br />
     					Оплата после вывода в ТОП</p>
-    				<button class="seo-btn">Заказать Сео продвижение</button>
+    				<button class="seo-btn" onclick="clickToOpenFormOverlay()">Заказать Сео продвижение</button>
     			</div>
     			<div>
     				<picture>
@@ -95,7 +95,7 @@
     					</div>
     				</div>
     			</div>
-    			<button class="templates_btn button-l" id="templates-all">
+    			<button class="templates_btn button-l" id="templates-all" onclick="clickToOpenFormOverlay()">
     				<div class="button-s"></div>
     				Заказать СЕО<br />
     				продвижение
@@ -244,8 +244,8 @@
     			<form action="" class="seo-form">
     				<h5 class="seo-form-title">Ваши данные</h5>
     				<div class="seo-form-inputs">
-    					<input type="text" class="seo-form__input" placeholder="Имя">
-    					<input type="text" class="seo-form__input" placeholder="Телефон">
+    					<input type="text" class="seo-form__input" required placeholder="Имя">
+    					<input type="text" class="seo-form__input" pattern="[789][0-9]{10}" required placeholder="Телефон">
     				</div>
     				<textarea name="" id="" class="seo-form__textarea" placeholder="Введите ваши данные"></textarea>
     				<div class="seo-form__submit-block">
@@ -475,6 +475,27 @@
     					</p>
     					<div class="order-enter"><img class="order-enter__img" src="./img/seo/ico-enter.svg" alt="enter"></div>
     				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    <section class="seo-overlay">
+    	<div class="container">
+    		<div class="form-wrapper seo-overlay-block">
+    			<form action="" class="seo-form">
+    				<h5 class="seo-form-title">Ваши данные</h5>
+    				<div class="seo-form-inputs">
+    					<input type="text" class="seo-form__input" required placeholder="Имя">
+    					<input type="text" class="seo-form__input" pattern="[789][0-9]{10}" required placeholder="Телефон">
+    				</div>
+    				<textarea name="" id="" class="seo-form__textarea" placeholder="Введите ваши данные"></textarea>
+    				<div class="seo-form__submit-block">
+    					<button type="submit" class="seo-form__submit-btn">Отправить</button>
+    					<p class="seo-form__submit-text">Нажимая на кнопку, вы соглашаетесь <span class="seo-form__submit-text_colored">с Политекой персональных данных</span></p>
+    				</div>
+    			</form>
+    			<div class="seo-overlay-close">
+    				<img src="img/close-big.svg" alt="close" onclick="clickToCloseFormOverlay()" class="seo-overlay-close">
     			</div>
     		</div>
     	</div>
