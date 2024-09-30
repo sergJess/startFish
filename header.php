@@ -846,9 +846,9 @@ $request = explode('/', $request)[1];
         <div class="container">
             <div class="hidden_wrap">
                 <div class="hidden_menu">
-                    <!-- <a href="stamps.php" class="hidden_menu_item">
-                        печати
-                    </a> -->
+                    <a href="seo.php" class="hidden_menu_item">
+                        seo
+                    </a>
                     <a href="templates.php" class="hidden_menu_item">
                         фирменный стиль
                     </a>

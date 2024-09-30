@@ -2036,15 +2036,15 @@ li {
 
 .order-scroll {
   display: flex;
-  flex-wrap: nowrap;
   -moz-column-gap: 22px;
        column-gap: 22px;
-  max-width: 100%;
+  flex-wrap: nowrap;
   overflow-x: auto;
-  align-items: flex-start;
 }
 
 .scroll-item {
+  align-self: flex-start;
+  margin-right: 10px;
   top: 0;
   position: relative;
   max-width: 202px;
@@ -2055,12 +2055,14 @@ li {
   border: 1px solid #DDDDDD;
   border-radius: 40px;
   transition: all 0.5s ease-in;
+  flex-shrink: 7;
 }
 
 .scroll-item_opened {
   max-width: 350px;
-  min-height: 460px;
+  min-height: 360px;
   background-color: #EDF6FF;
+  flex-shrink: 2;
 }
 
 .scroll-item__title {
@@ -2119,7 +2121,7 @@ li {
   width: 100vw;
   left: 800%;
   top: 0;
-  height: 100vh;
+  height: 102vh;
   background-color: #EDF6FF;
   z-index: 100;
 }
@@ -2136,6 +2138,9 @@ li {
   left: 0;
 }
 
-.body-no-scroll {
-  overflow-y: hidden;
+.seo-form-title-block {
+  display: flex;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */

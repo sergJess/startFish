@@ -516,10 +516,39 @@ return
     } 
 }
 
-function clickOnScrollItem(){
+function clickToOpenFormOverlay(){
+const overlay = document.querySelector('.seo-overlay');
+if(overlay){
+    overlay.classList.add('seo-overlay_open');
+}
+}
+
+function clickToCloseFormOverlay(){
+    const overlay = document.querySelector('.seo-overlay');
+if(overlay){
+    overlay.classList.remove('seo-overlay_open');
+}
+}
+
+function clickOnScrollBlock(){
 const elem = event.currentTarget;
-if(elem){
- if(elem.getAttribute('isClicked') == null){
+const parent = elem.parentNode;
+if(elem && parent){
+  const allElems = parent.querySelectorAll('.scroll-item');
+  for(let i = 0; i < allElems.length; i++){
+  const imgToHide = allElems[i].querySelector('.scroll-item__img-block');
+  const text = allElems[i].querySelector('.scroll-item__text');
+  const imgArrow = allElems[i].querySelector('.order-enter__img');
+   imgToHide.classList.remove('display-none');
+    text.classList.add('display-none');
+    text.classList.remove('display-block');
+    allElems[i].classList.remove('scroll-item_opened');
+    imgArrow.src = `${elem.getAttribute('imgSrc')}`;
+    if(allElems[i].getAttribute('isClicked' == 'true')){
+       allElems[i].setAttribute('isClicked', 'false');
+    }
+  }
+  if(elem.getAttribute('isClicked') == null){
    elem.setAttribute("isClicked", "true");
   }
   const imgToHide = elem.querySelector('.scroll-item__img-block');
@@ -543,19 +572,5 @@ if(elem){
     elem.setAttribute('isClicked', 'true');
     return;
   }   
-}
-}
-
-function clickToOpenFormOverlay(){
-const overlay = document.querySelector('.seo-overlay');
-if(overlay){
-    overlay.classList.add('seo-overlay_open');
-}
-}
-
-function clickToCloseFormOverlay(){
-    const overlay = document.querySelector('.seo-overlay');
-if(overlay){
-    overlay.classList.remove('seo-overlay_open');
 }
 }

@@ -410,72 +410,76 @@
     	<div class="container">
     		<div class="order">
     			<h2 class="order-title">Как заказать<br /> продвижение</h2>
-    			<div class="order-scroll">
-    				<div class="scroll-item" imgSrc="./img/seo/ico-enter.svg" onclick="clickOnScrollItem()">
-    					<div class="scroll-item__img-block"><img src="./img/seo/ico-consultation.svg" alt="consultation"></div>
-    					<h5 class="scroll-item__title">Консультация</h5>
-    					<p class="scroll-item__text display-none">Начальный этап заключается в бесплатной консультации, на которой мы выясняем ваши
-    						бизнес-цели, текущую ситуацию вашего сайта и обсуждаем возможные варианты
-    						продвижения. Мы готовы ответить на все ваши вопросы и предложить предварительный
-    						анализ перспектив.</p>
-    					<div class="order-enter"><img class="order-enter__img" src="./img/seo/ico-enter.svg" alt="enter"></div>
+    			<div class="order-scroll-main">
+    				<div class="order-scroll">
+    					<div class="scroll-item" imgSrc="./img/seo/ico-enter.svg" onclick="clickOnScrollBlock()">
+    						<div class="scroll-item__img-block"><img src="./img/seo/ico-consultation.svg" alt="consultation"></div>
+    						<h5 class="scroll-item__title">Консультация</h5>
+    						<p class="scroll-item__text display-none">Начальный этап заключается в бесплатной консультации, на которой мы выясняем ваши
+    							бизнес-цели, текущую ситуацию вашего сайта и обсуждаем возможные варианты
+    							продвижения. Мы готовы ответить на все ваши вопросы и предложить предварительный
+    							анализ перспектив.</p>
+    						<div class="order-enter"><img class="order-enter__img" src="./img/seo/ico-enter.svg" alt="enter"></div>
+    					</div>
+    					<div class="scroll-item" imgSrc="./img/seo/ico-enter.svg" onclick="clickOnScrollBlock()">
+    						<div class="scroll-item__img-block"><img src="./img/seo/ico-proposition.svg" alt="proposition"></div>
+    						<h5 class="scroll-item__title">Коммерческое<br /> предложение</h5>
+    						<p class="scroll-item__text display-none">
+    							На основании полученной информации мы разрабатываем индивидуальное коммерческое
+    							предложение. Оно включает детализированный план действий, предполагаемые сроки
+    							выполнения и стоимость услуг. Весь процесс учитывает особенности вашего сайта и
+    							конкурентного окружения.
+    						</p>
+    						<div class="order-enter"><img class="order-enter__img" src="./img/seo/ico-enter.svg" alt="enter"></div>
+    					</div>
+    					<div class="scroll-item" imgSrc="./img/seo/ico-enter.svg" onclick="clickOnScrollBlock()">
+    						<div class="scroll-item__img-block"><img src="./img/seo/ico-meet.svg" alt="meet"></div>
+    						<h5 class="scroll-item__title">Личная<br /> встреча</h5>
+    						<p class="scroll-item__text display-none">
+    							Для более детального обсуждения проекта приглашаем вас на личную встречу, которая
+    							может быть проведена как в офисе, так и онлайн. В ходе встречи мы уточняем все детали
+    							коммерческого предложения, определяем конкретные цели и задачи, а также даем ответы
+    							на все ваши дополнительные вопросы.
+    						</p>
+    						<div class="order-enter"><img class="order-enter__img" src="./img/seo/ico-enter.svg" alt="enter"></div>
+    					</div>
+    					<div class="scroll-item" imgSrc="./img/seo/ico-enter.svg" onclick="clickOnScrollBlock()">
+    						<div class="scroll-item__img-block"><img src="./img/seo/ico-doc.svg" alt="consultation"></div>
+    						<h5 class="scroll-item__title">Заключение<br /> договора</h5>
+    						<p class="scroll-item__text display-none">
+    							После согласования всех условий мы заключаем официальный договор. В документе
+    							закрепляются все достигнутые договоренности: перечень услуг, сроки выполнения,
+    							стоимость и условия оплаты. Это обеспечивает прозрачность и ответственность обеих
+    							сторон.
+    						</p>
+    						<div class="order-enter"><img class="order-enter__img" src="./img/seo/ico-enter.svg" alt="agreement"></div>
+    					</div>
+    					<div class="scroll-item" imgSrc="./img/seo/ico-enter.svg" onclick="clickOnScrollBlock()">
+    						<div class="scroll-item__img-block"><img src="./img/seo/ico-top.svg" alt="top"></div>
+    						<h5 class="scroll-item__title">Вывод в ТОП</h5>
+    						<p class="scroll-item__text display-none">
+    							Сразу после заключения договора наша команда приступает к работе над продвижением
+    							вашего сайта. Этот процесс включает аудит сайта, подбор ключевых фраз, оптимизацию
+    							контента, внутреннюю и внешнюю оптимизацию, а также непрерывное наблюдение и
+    							корректировку стратегии для достижения лучших результатов.
+    						</p>
+    						<div class="order-enter"><img class="order-enter__img" src="./img/seo/ico-enter.svg" alt="enter"></div>
+    					</div>
+    					<div class="scroll-item" imgSrc="./img/seo/ico-enter.svg" onclick="clickOnScrollBlock()">
+    						<div class="scroll-item__img-block"><img src="./img/seo/ico-rub.svg" alt="payment"></div>
+    						<h5 class="scroll-item__title">Оплата<br />
+    							по договору</h5>
+    						<p class="scroll-item__text display-none">
+    							Оплата услуг производится согласно условиям договора. Мы регулярно предоставляем
+    							отчеты о проделанной работе и достигнутых результатах, что позволяет вам
+    							контролировать ход выполнения и оценивать эффективность инвестиций.
+    						</p>
+    						<div class="order-enter"><img class="order-enter__img" src="./img/seo/ico-enter.svg" alt="enter"></div>
+    					</div>
     				</div>
-    				<div class="scroll-item" imgSrc="./img/seo/ico-enter.svg" onclick="clickOnScrollItem()">
-    					<div class="scroll-item__img-block"><img src="./img/seo/ico-proposition.svg" alt="proposition"></div>
-    					<h5 class="scroll-item__title">Коммерческое<br /> предложение</h5>
-    					<p class="scroll-item__text display-none">
-    						На основании полученной информации мы разрабатываем индивидуальное коммерческое
-    						предложение. Оно включает детализированный план действий, предполагаемые сроки
-    						выполнения и стоимость услуг. Весь процесс учитывает особенности вашего сайта и
-    						конкурентного окружения.
-    					</p>
-    					<div class="order-enter"><img class="order-enter__img" src="./img/seo/ico-enter.svg" alt="enter"></div>
-    				</div>
-    				<div class="scroll-item" imgSrc="./img/seo/ico-enter.svg" onclick="clickOnScrollItem()">
-    					<div class="scroll-item__img-block"><img src="./img/seo/ico-meet.svg" alt="meet"></div>
-    					<h5 class="scroll-item__title">Личная<br /> встреча</h5>
-    					<p class="scroll-item__text display-none">
-    						Для более детального обсуждения проекта приглашаем вас на личную встречу, которая
-    						может быть проведена как в офисе, так и онлайн. В ходе встречи мы уточняем все детали
-    						коммерческого предложения, определяем конкретные цели и задачи, а также даем ответы
-    						на все ваши дополнительные вопросы.
-    					</p>
-    					<div class="order-enter"><img class="order-enter__img" src="./img/seo/ico-enter.svg" alt="enter"></div>
-    				</div>
-    				<div class="scroll-item" imgSrc="./img/seo/ico-enter.svg" onclick="clickOnScrollItem()">
-    					<div class="scroll-item__img-block"><img src="./img/seo/ico-doc.svg" alt="consultation"></div>
-    					<h5 class="scroll-item__title">Заключение<br /> договора</h5>
-    					<p class="scroll-item__text display-none">
-    						После согласования всех условий мы заключаем официальный договор. В документе
-    						закрепляются все достигнутые договоренности: перечень услуг, сроки выполнения,
-    						стоимость и условия оплаты. Это обеспечивает прозрачность и ответственность обеих
-    						сторон.
-    					</p>
-    					<div class="order-enter"><img class="order-enter__img" src="./img/seo/ico-enter.svg" alt="agreement"></div>
-    				</div>
-    				<div class="scroll-item" imgSrc="./img/seo/ico-enter.svg" onclick="clickOnScrollItem()">
-    					<div class="scroll-item__img-block"><img src="./img/seo/ico-top.svg" alt="top"></div>
-    					<h5 class="scroll-item__title">Вывод в ТОП</h5>
-    					<p class="scroll-item__text display-none">
-    						Сразу после заключения договора наша команда приступает к работе над продвижением
-    						вашего сайта. Этот процесс включает аудит сайта, подбор ключевых фраз, оптимизацию
-    						контента, внутреннюю и внешнюю оптимизацию, а также непрерывное наблюдение и
-    						корректировку стратегии для достижения лучших результатов.
-    					</p>
-    					<div class="order-enter"><img class="order-enter__img" src="./img/seo/ico-enter.svg" alt="enter"></div>
-    				</div>
-    				<div class="scroll-item" imgSrc="./img/seo/ico-enter.svg" onclick="clickOnScrollItem()">
-    					<div class="scroll-item__img-block"><img src="./img/seo/ico-rub.svg" alt="payment"></div>
-    					<h5 class="scroll-item__title">Оплата<br />
-    						по договору</h5>
-    					<p class="scroll-item__text display-none">
-    						Оплата услуг производится согласно условиям договора. Мы регулярно предоставляем
-    						отчеты о проделанной работе и достигнутых результатах, что позволяет вам
-    						контролировать ход выполнения и оценивать эффективность инвестиций.
-    					</p>
-    					<div class="order-enter"><img class="order-enter__img" src="./img/seo/ico-enter.svg" alt="enter"></div>
-    				</div>
+
     			</div>
+
     		</div>
     	</div>
     </section>
@@ -483,7 +487,12 @@
     	<div class="container">
     		<div class="form-wrapper seo-overlay-block">
     			<form action="" class="seo-form">
-    				<h5 class="seo-form-title">Ваши данные</h5>
+    				<div class="seo-form-title-block">
+    					<h5 class="seo-form-title">Ваши данные</h5>
+    					<div class="seo-overlay-close">
+    						<img src="img/close-big.svg" alt="close" onclick="clickToCloseFormOverlay()" class="seo-overlay-close">
+    					</div>
+    				</div>
     				<div class="seo-form-inputs">
     					<input type="text" class="seo-form__input" required placeholder="Имя">
     					<input type="text" class="seo-form__input" pattern="[789][0-9]{10}" required placeholder="Телефон">
@@ -494,9 +503,7 @@
     					<p class="seo-form__submit-text">Нажимая на кнопку, вы соглашаетесь <span class="seo-form__submit-text_colored">с Политекой персональных данных</span></p>
     				</div>
     			</form>
-    			<div class="seo-overlay-close">
-    				<img src="img/close-big.svg" alt="close" onclick="clickToCloseFormOverlay()" class="seo-overlay-close">
-    			</div>
+
     		</div>
     	</div>
     </section>

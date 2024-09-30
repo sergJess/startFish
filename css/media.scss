@@ -53,15 +53,13 @@
         font-size: 45px;
         padding-top: 0px;
     }
-     .clients-content{
-        margin-bottom: 100px;
-        overflow-x: scroll;
-    }
+
     .clients-title{
         margin-bottom: 60px;
     }
     .order-scroll{
-        overflow-x: scroll;
+        overflow-x: auto;
+        width: 1400px;
     }
     .position{
         padding: 0;
@@ -124,7 +122,12 @@
 .clients-content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: start;
     column-gap: 20px;
+    margin-bottom: 70px;
+    padding-bottom: 30px;
+    overflow-x: auto;
 }
 .questions{
     grid-template-columns: 1fr;
@@ -137,8 +140,15 @@
 }
 .order{
     margin-top: 100px;
-    margin-bottom: 100px;
+     margin-bottom: 80px;
 }
+.order-scroll-main{
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+.seo-top{
+        min-height: auto;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -232,10 +242,16 @@
         flex-direction: column;
         row-gap: 40px;
     }
-    .seo-top{
-        min-height: auto;
-    }
-   
+    
+   .scroll-item:hover{
+    top: 0;
+}
+.position__item-circle{
+    width: 44px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 16px;
+}
 }
 
 @media screen and (max-width: 992px) {
@@ -467,9 +483,6 @@
     .questions-img-block{
         padding-left: 0;
     }
-    .clients-content{
-     padding-left: 30%;
-}
 }
 
 @media screen and (max-width: 768px) {
@@ -599,6 +612,7 @@
                 font-size: 14px;
             }
         }
+        
     }
     .stamps {
         .plans {
@@ -655,8 +669,21 @@
             grid-template-columns: 1fr 1fr 1fr 1fr;
         }
     }
-       .clients-content{
-     padding-left: 74%;
+     
+.header_seo{
+    padding-bottom: 25px;
+        }
+.seo-strategy{
+    background-image: url('../img/seo/bg-seo-mob.svg');
+    background-position: top left;
+    padding: 144px 10px 50px 10px;
+}
+.order-title{
+    margin-left: 0;
+    margin-bottom: 65px;
+}
+.order{
+    padding-top: 0;
 }
 }
 
@@ -846,13 +873,9 @@
             }
         }
     }
-           .clients-content{
-     padding-left: 95%;
-}
+          
 }
 
 @media screen and (max-width: 400px) {
-.clients-content{
-     padding-left: 146%;
-}
+
 }
